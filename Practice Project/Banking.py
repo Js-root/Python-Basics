@@ -20,7 +20,7 @@ def withdraw():
     return decrement
 
 
-while True:
+while balance>=0:
     print()
     print("1) Show Balance")
     print("2) Deposit")
